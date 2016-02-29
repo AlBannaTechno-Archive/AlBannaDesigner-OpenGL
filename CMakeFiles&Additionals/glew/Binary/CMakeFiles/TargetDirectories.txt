@@ -1,0 +1,8 @@
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/glewmx_s.dir
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/glewinfo.dir
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/glew_s.dir
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/ALL_BUILD.dir
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/glewmx.dir
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/ZERO_CHECK.dir
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/visualinfo.dir
+C:/Users/freecomp1/Desktop/dsa/Binary/CMakeFiles/glew.dir

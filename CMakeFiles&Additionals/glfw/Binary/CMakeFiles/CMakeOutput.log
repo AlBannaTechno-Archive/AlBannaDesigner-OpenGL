@@ -1,0 +1,125 @@
+The system is: Windows - 6.3.9600 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 17/01/2016 05:25:02 ê.
+Project "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.58
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/CMakeFiles/3.4.1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9c8de.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 17/01/2016 05:25:07 ê.
+Project "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\cmTC_9c8de.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9c8de.dir\Debug\".
+  Creating directory "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9c8de.dir\Debug\cmTC_9c8de.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9c8de.dir\Debug\cmTC_9c8de.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9c8de.dir\Debug\\" /Fd"cmTC_9c8de.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9c8de.dir\Debug\\" /Fd"cmTC_9c8de.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\Debug\cmTC_9c8de.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/CMakeFiles/CMakeTmp/Debug/cmTC_9c8de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/CMakeFiles/CMakeTmp/Debug/cmTC_9c8de.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_9c8de.dir\Debug\testCCompiler.obj
+  cmTC_9c8de.vcxproj -> C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\Debug\cmTC_9c8de.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9c8de.dir\Debug\cmTC_9c8de.tlog\unsuccessfulbuild".
+  Touching "cmTC_9c8de.dir\Debug\cmTC_9c8de.tlog\cmTC_9c8de.lastbuildstate".
+Done Building Project "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\cmTC_9c8de.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.80
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5baa4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 17/01/2016 05:25:09 ê.
+Project "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\cmTC_5baa4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5baa4.dir\Debug\".
+  Creating directory "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5baa4.dir\Debug\cmTC_5baa4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5baa4.dir\Debug\cmTC_5baa4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5baa4.dir\Debug\\" /Fd"cmTC_5baa4.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5baa4.dir\Debug\\" /Fd"cmTC_5baa4.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\Debug\cmTC_5baa4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/CMakeFiles/CMakeTmp/Debug/cmTC_5baa4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/CMakeFiles/CMakeTmp/Debug/cmTC_5baa4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_5baa4.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_5baa4.vcxproj -> C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\Debug\cmTC_5baa4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5baa4.dir\Debug\cmTC_5baa4.tlog\unsuccessfulbuild".
+  Touching "cmTC_5baa4.dir\Debug\cmTC_5baa4.tlog\cmTC_5baa4.lastbuildstate".
+Done Building Project "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\CMakeTmp\cmTC_5baa4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+

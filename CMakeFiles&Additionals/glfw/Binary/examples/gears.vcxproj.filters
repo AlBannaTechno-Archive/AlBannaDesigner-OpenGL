@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\examples\gears.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7AE73AAE-E6F2-385F-8B66-E74DFF559703}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

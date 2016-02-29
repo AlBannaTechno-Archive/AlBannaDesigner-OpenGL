@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/examples/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\examples\CMakeFiles\generate.stamp is up-to-date.
+  simple.c
+  simple.vcxproj -> C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\examples\Debug\simple.exe

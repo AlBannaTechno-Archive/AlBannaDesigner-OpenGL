@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DAC19CF3-FFF5-4DC8-A632-16B55BE2F7CF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AlBannaDesigner</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\Libraries\include\;$(ProjectDir)\</IncludePath>
+    <OutDir>$(SolutionDir)\Binary\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>__STOP_SHADER_H__;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Libraries\lib\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp.lib;SOIL.lib;glew32s.lib;opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1-LightA.cpp" />
+    <ClCompile Include="1-LightAstart.cpp" />
+    <ClCompile Include="1-shader.cpp" />
+    <ClCompile Include="1-Textures.cpp" />
+    <ClCompile Include="2-shader from zero.cpp" />
+    <ClCompile Include="BasicClass.cpp" />
+    <ClCompile Include="BasicColor.cpp" />
+    <ClCompile Include="1-BasicLight1.cpp" />
+    <ClCompile Include="CamWithCameraClass.cpp" />
+    <ClCompile Include="ComeBack\BeforeShaderClass.cpp" />
+    <ClCompile Include="ComeBack\CB3DCUBE.cpp" />
+    <ClCompile Include="ComeBack\CBTexture.cpp" />
+    <ClCompile Include="ComeBack\FirstCam.cpp" />
+    <ClCompile Include="ComeBack\Material.h" />
+    <ClCompile Include="ComeBack\MaterialStart.cpp" />
+    <ClCompile Include="ComeBack\StartDepth testing.cpp" />
+    <ClCompile Include="ComeBack\StartMySandBox.cpp" />
+    <ClCompile Include="ComeBack\NewManipulateFromCWCC.cpp" />
+    <ClCompile Include="ComeBack\StartLightCasters.cpp" />
+    <ClCompile Include="ComeBack\StartLightingMaps.cpp" />
+    <ClCompile Include="ComeBack\StartMultiple lights.cpp" />
+    <ClCompile Include="ComeBack\StLoadModels.cpp" />
+    <ClCompile Include="ComeBack\TestGLSLSky.cpp" />
+    <ClCompile Include="ComeBack\TransForm.cpp" />
+    <ClCompile Include="ComeBack\TransNo2.cpp" />
+    <ClCompile Include="ComeBack\WithShaderClass.cpp" />
+    <ClCompile Include="Directional Light.cpp" />
+    <ClCompile Include="distributedTotal.cpp" />
+    <ClCompile Include="Exercies.cpp" />
+    <ClCompile Include="final Triangle.cpp" />
+    <ClCompile Include="FirstLight.cpp" />
+    <ClCompile Include="Lighting maps.cpp" />
+    <ClCompile Include="LightingMultWino-outCourse-.cpp" />
+    <ClCompile Include="LightMap-Diffuse-Web.cpp" />
+    <ClCompile Include="LoadModeles.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainDis.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Materials.cpp" />
+    <ClCompile Include="MultipleLight.cpp" />
+    <ClCompile Include="REspotLight.cpp" />
+    <ClCompile Include="SpotLight.cpp" />
+    <ClCompile Include="Start.cpp" />
+    <ClCompile Include="TextureFromZero1.cpp" />
+    <ClCompile Include="TextureFromZero1Web.cpp" />
+    <ClCompile Include="TheCamera.cpp" />
+    <ClCompile Include="Transformations.cpp" />
+    <ClCompile Include="Triangle from web.cpp" />
+    <ClCompile Include="TryProgrammmingLanguage.cpp" />
+    <ClCompile Include="TryStringWithSwitch.cpp" />
+    <ClCompile Include="WorkOnMatricies.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1-LightA.h" />
+    <ClInclude Include="AdditionalClasses.h" />
+    <ClInclude Include="AdditionalPersonalFunctions.h" />
+    <ClInclude Include="BackupGC.h" />
+    <ClInclude Include="BasicClass.h" />
+    <ClInclude Include="Boint%27sContainers.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="ComeBack\CBShader.h" />
+    <ClInclude Include="ComeBack\Depth testing.h" />
+    <ClInclude Include="ComeBack\LightCasters.h" />
+    <ClInclude Include="ComeBack\LightingMaps.h" />
+    <ClInclude Include="ComeBack\LoadModels.h" />
+    <ClInclude Include="ComeBack\MultipleLights.h" />
+    <ClInclude Include="ComeBack\MySandBox.h" />
+    <ClInclude Include="GeneralIncluders.h" />
+    <ClInclude Include="GraphicalCalculator.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="States.h" />
+    <ClInclude Include="ToShaderBookHighlight.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Binary\shaders\BasicColorLamp.frag" />
+    <None Include="..\Binary\shaders\BasicColorLamp.vs" />
+    <None Include="..\Binary\shaders\BasicColorLighting.frag">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLighting.vs" />
+    <None Include="..\Binary\shaders\BasicColorLightingMotion.frag" />
+    <None Include="..\Binary\shaders\BasicColorLightingMotion.vs" />
+    <None Include="..\Binary\shaders\BasicColorLightingNormMat.frag" />
+    <None Include="..\Binary\shaders\BasicColorLightingNormMat.vs" />
+    <None Include="..\Binary\shaders\CB3DCUBE.frag" />
+    <None Include="..\Binary\shaders\CB3DCUBE.vs" />
+    <None Include="..\Binary\shaders\CBTexture.frag" />
+    <None Include="..\Binary\shaders\CBTexture.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\debthTesting.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\debthTesting.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\Lamp.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\Lamp.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\LCDirectionalLight.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\LCDirectionalLight.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\LightenObject.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\LightenObject.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\LightingMaps.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\LightingMaps.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\Material.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\Material.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\MulLiLamp.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\MulLiLamp.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\Multiple lights.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\Multiple lights.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\MySandBox.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\MySandBox.vs" />
+    <None Include="..\Binary\shaders\ContAsClass\SandBox2.frag" />
+    <None Include="..\Binary\shaders\ContAsClass\shaderSingleColor.frag" />
+    <None Include="..\Binary\shaders\DirectionalLight.frag" />
+    <None Include="..\Binary\shaders\DirectionalLight.vs" />
+    <None Include="..\Binary\shaders\infinityBlocks.frag" />
+    <None Include="..\Binary\shaders\lamp.frag" />
+    <None Include="..\Binary\shaders\lamp.vs" />
+    <None Include="..\Binary\shaders\Lighting maps.frag" />
+    <None Include="..\Binary\shaders\Lighting maps.vs" />
+    <None Include="..\Binary\shaders\lighting.frag" />
+    <None Include="..\Binary\shaders\lighting.vs" />
+    <None Include="..\Binary\shaders\LoadModeles.frag" />
+    <None Include="..\Binary\shaders\LoadModeles.vs" />
+    <None Include="..\Binary\shaders\Materials.frag" />
+    <None Include="..\Binary\shaders\Materials.vs" />
+    <None Include="..\Binary\shaders\Multiple lights.frag" />
+    <None Include="..\Binary\shaders\Multiple lights.vs" />
+    <None Include="..\Binary\shaders\NewManipSphareDraw.vs" />
+    <None Include="..\Binary\shaders\OkWithMaterial.frag" />
+    <None Include="..\Binary\shaders\REspotLight.frag">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</DeploymentContent>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\Binary\shaders\REspotLight.vs" />
+    <None Include="..\Binary\shaders\shad.frag" />
+    <None Include="..\Binary\shaders\shad.vs" />
+    <None Include="..\Binary\shaders\Sky.frag" />
+    <None Include="..\Binary\shaders\SpotLight.frag" />
+    <None Include="..\Binary\shaders\SpotLight.vs" />
+    <None Include="..\Binary\shaders\TextureFromZero1.frag" />
+    <None Include="..\Binary\shaders\TextureFromZero1.vs" />
+    <None Include="..\Binary\shaders\texture1.frag" />
+    <None Include="..\Binary\shaders\texture1.vs" />
+    <None Include="..\Binary\shaders\TheCamera.frag" />
+    <None Include="..\Binary\shaders\TheCamera.vs" />
+    <None Include="..\Binary\shaders\transformers.frag" />
+    <None Include="..\Binary\shaders\transformers.vs" />
+    <None Include="..\Binary\shaders\TransNo2.frag" />
+    <None Include="..\Binary\shaders\TransNo2.vs" />
+    <None Include="..\Binary\shaders\WorkOnMatricies.frag" />
+    <None Include="..\Binary\shaders\WorkOnMatricies.vs" />
+    <None Include="plane.frag" />
+    <None Include="plane.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Binary\shaders\NewManipSphareDraw.frag" />
+    <Text Include="BackupMaterial.txt" />
+    <Text Include="ForTest.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

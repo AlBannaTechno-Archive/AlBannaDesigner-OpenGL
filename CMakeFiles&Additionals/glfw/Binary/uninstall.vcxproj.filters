@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\b9e674dc9fdc1d05713978cb08e35e80\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{57A5355C-30A1-3F16-B5B3-666CE88A2E90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

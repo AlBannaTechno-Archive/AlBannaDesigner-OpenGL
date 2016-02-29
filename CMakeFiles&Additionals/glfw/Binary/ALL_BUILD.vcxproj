@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{866A4129-9530-35EA-B171-3706EC845448}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2" "-BC:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary" --check-stamp-file "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\docs\Doxyfile.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw_config.h.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3.pc.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2" "-BC:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary" --check-stamp-file "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\docs\Doxyfile.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw_config.h.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3.pc.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2" "-BC:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary" --check-stamp-file "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\docs\Doxyfile.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw_config.h.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3.pc.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2" "-BC:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary" --check-stamp-file "C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/freecomp1/Desktop/cmakefile ggenerate/glfw-3.1.2/glfw-3.1.2/CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\docs\Doxyfile.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw_config.h.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\src\glfw3.pc.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\freecomp1\Desktop\cmakefile ggenerate\glfw-3.1.2\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\freecomp1\Desktop\cmakefile ggenerate\Binary\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/ZERO_CHECK.vcxproj">
+      <Project>7157B5AE-6E3C-3014-BDC8-82DA6E42F529</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/examples/boing.vcxproj">
+      <Project>F6ABC721-B33C-3EE3-9B76-AEFD4D5E7964</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/clipboard.vcxproj">
+      <Project>552FC719-7820-32DA-AB1F-DA10D5A51B61</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/cursor.vcxproj">
+      <Project>CA23B4FB-3814-3E5C-9B46-48187A13CCFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/empty.vcxproj">
+      <Project>6B4AB6E9-D082-313F-B8F8-B4E260A5F535</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/events.vcxproj">
+      <Project>BCBCD1DA-AB7E-3571-ADA6-AD5A9A49F7EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/gamma.vcxproj">
+      <Project>05F774B2-B97C-3EFF-BDBE-D874629E51EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/examples/gears.vcxproj">
+      <Project>2921D651-2F13-36FE-8504-0675C772EA3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/src/glfw.vcxproj">
+      <Project>6CA974A5-82DF-3A6C-98E2-A5ACF9EDE0BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/glfwinfo.vcxproj">
+      <Project>726425C1-7C24-3885-B555-1426A888EADE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/examples/heightmap.vcxproj">
+      <Project>A843DCBB-AC9D-3179-93A1-0EECEFE920AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/iconify.vcxproj">
+      <Project>CCDE95F7-08ED-3B72-B1D9-14F5438ABC57</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/joysticks.vcxproj">
+      <Project>BBD20FED-200D-3CED-B06D-DC7917065848</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/monitors.vcxproj">
+      <Project>77B948A0-8A71-3BEE-B52C-D889B634AFD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/msaa.vcxproj">
+      <Project>AE103CE8-749F-333F-8E4B-BB6C2F01C10D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/examples/particles.vcxproj">
+      <Project>E41DCE4A-3CBC-399A-8F63-98BDB362B3FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/reopen.vcxproj">
+      <Project>25FDBCC3-AF68-3F3D-A3C5-FE287A429A27</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/sharing.vcxproj">
+      <Project>76D2C88F-7413-30BA-887E-60457E5B7031</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/examples/simple.vcxproj">
+      <Project>943E9B7B-D770-387E-90EF-B8F9C28BD75D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/examples/splitview.vcxproj">
+      <Project>C69AC1F3-5FC1-35F8-A96D-191BFE52F53B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/tearing.vcxproj">
+      <Project>C0A5B9EC-92E5-34E8-9A53-8D188334DF3B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/threads.vcxproj">
+      <Project>F2EA018D-8F7F-32E6-9CAF-D68A50268005</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/title.vcxproj">
+      <Project>93C97E74-9CF8-3164-B4EB-8B80D8AFA801</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/examples/wave.vcxproj">
+      <Project>E2AB3B60-1211-3CDF-B9A6-6FAC542F288A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/freecomp1/Desktop/cmakefile ggenerate/Binary/tests/windows.vcxproj">
+      <Project>5D171E75-6B0D-3EF3-A766-ADF1A5C9CC0D</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

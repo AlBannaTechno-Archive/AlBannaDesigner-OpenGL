@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesigner\CMakeFiles\glew\glew-1.13.0\glew-1.13.0\build\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,70 @@
+
+		// Use cooresponding shader when setting uniforms/drawing objects
+		lightingShader.Use();
+		GLint objectColorLoc = glGetUniformLocation(lightingShader.Program, "objectColor");
+		GLint lightColorLoc = glGetUniformLocation(lightingShader.Program, "lightColor");
+		glUniform3f(objectColorLoc, 1.0f, 0.5f, 0.31f);
+		glUniform3f(lightColorLoc, 1.0f, 0.5f, 1.0f);
+
+		// Create camera transformations
+		glm::mat4 view;
+		view = camera.GetViewMatrix();
+		glm::mat4 projection = glm::perspective(camera.Zoom, (GLfloat)WIDTH / (GLfloat)HEIGHT, 0.1f, 100.0f);
+		// Get the uniform locations
+		GLint modelLoc = glGetUniformLocation(lightingShader.Program, "model");
+		GLint viewLoc = glGetUniformLocation(lightingShader.Program, "view");
+		GLint projLoc = glGetUniformLocation(lightingShader.Program, "projection");
+		// Pass the matrices to the shader
+		glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+		glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection));
+
+		// Draw the container (using container's vertex attributes)
+		glBindVertexArray(containerVAO);
+		glm::mat4 model;
+		model = glm::rotate(model, 20 * (GLfloat)glfwGetTime(), glm::vec3(1.0f, -1.0f, 1.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glDrawArrays(GL_TRIANGLES, 0, 36);
+		GLint lightPosLoc = glGetUniformLocation(lightingShader.Program, "lightpos");
+		glUniform3f(lightPosLoc, lightPos.x, lightPos.y, lightPos.z);
+		GLint viewPosLoc = glGetUniformLocation(lightingShader.Program, "viewPos");
+		glUniform3f(viewPosLoc, camera.Position.x, camera.Position.y, camera.Position.z);
+
+		GLint matAmbientLoc = glGetUniformLocation(lightingShader.Program, "material.ambient");
+		GLint matDiffuseLoc = glGetUniformLocation(lightingShader.Program, "material.diffuse");
+		GLint matSpecularLoc = glGetUniformLocation(lightingShader.Program, "material.specular");
+		GLint matShineLoc = glGetUniformLocation(lightingShader.Program, "material.shininess");
+		glUniform3f(matAmbientLoc, 1.0f, 0.5f, 0.31f);
+		glUniform3f(matDiffuseLoc, 1.0f, 0.5f, 0.31f);
+		glUniform3f(matSpecularLoc, 0.5f, 0.5f, 0.5f);
+		glUniform1f(matShineLoc, 145.0f);
+		GLint lightAmbientLoc = glGetUniformLocation(lightingShader.Program, "light.ambient");
+		GLint lightDiffuseLoc = glGetUniformLocation(lightingShader.Program, "light.diffuse");
+		GLint lightSpecularLoc = glGetUniformLocation(lightingShader.Program, "light.specular");
+		glUniform3f(lightAmbientLoc, 0.2f, 0.2f, 0.2f);
+		glUniform3f(lightDiffuseLoc, 0.5f, 0.5f, 0.5f); // Let’s darken the light abit to fit the scene
+		glUniform3f(lightSpecularLoc, 1.0f, 1.0f, 1.0f);
+
+		glBindVertexArray(0);
+
+		// Also draw the lamp object, again binding the appropriate shader
+		lampShader.Use();
+		// Get location objects for the matrices on the lamp shader (these could be different on a different shader)
+		modelLoc = glGetUniformLocation(lampShader.Program, "model");
+		viewLoc = glGetUniformLocation(lampShader.Program, "view");
+		projLoc = glGetUniformLocation(lampShader.Program, "projection");
+		// Set matrices
+		view = glm::rotate(view, 30 * (GLfloat)glfwGetTime(), glm::vec3(1.0f, -1.0f, 1.0f));
+		glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+		glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection));
+		model = glm::mat4();//clear last value
+		//	float c = (cos(glfwGetTime()*10) == 0) ? 1 : (cos(glfwGetTime())*10);
+		//	lightPos.x = (GLfloat)(sin(glfwGetTime() * 10) == 0 || sin(glfwGetTime() * 10)!=1) ? lightPos.x*sin(20)*20 : (sin(glfwGetTime() * 10));
+		//	std::cout << lightPos.x<<" ";
+		//	lightPos.y *= (GLfloat)sin(glfwGetTime());
+		model = glm::translate(model, lightPos);
+		model = glm::scale(model, glm::vec3(0.9f)); // Make it a smaller cube//it's affect on all thing position rotation 
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		// Draw the light object (using light's vertex attributes)
+		glBindVertexArray(lightVAO);
+		glDrawArrays(GL_TRIANGLES, 0, 36);
+		glBindVertexArray(0);

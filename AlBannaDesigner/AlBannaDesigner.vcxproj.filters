@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\No1">
+      <UniqueIdentifier>{11218e0f-405f-47f9-80bc-5498656c22ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\No2">
+      <UniqueIdentifier>{189f0516-f946-4af9-8f25-c0826c644b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{63318176-b60d-4521-9f2a-5ee6f9b5f5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\vertex">
+      <UniqueIdentifier>{2f54e3cf-c7e1-4bbb-b3d8-54e80bbbb9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\fragment">
+      <UniqueIdentifier>{0265e6f4-8f4a-4a3a-9e28-998d7d1e4a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CordinatesAndMath">
+      <UniqueIdentifier>{fcb4212b-602d-4656-929e-be51149e369d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{26ef3aba-cadc-4020-b85c-8c85eba4aee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting\LightCasters">
+      <UniqueIdentifier>{37792b2c-42e5-4703-b6fe-26cf6085db15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OuterTest">
+      <UniqueIdentifier>{204e0874-3461-41d3-ae28-bdba51f2f3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelLoading">
+      <UniqueIdentifier>{8a9d887d-63d3-476d-8be7-aa6d3e8e00e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelLoading\Assimp">
+      <UniqueIdentifier>{ac372bca-95fa-4ead-bee6-0566f869bb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack">
+      <UniqueIdentifier>{c5535dd3-b2ed-4cc1-8bab-42f4e0a63456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\ComeBack">
+      <UniqueIdentifier>{f654e242-6199-485d-8f36-d94149a89475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GLSLSandBox">
+      <UniqueIdentifier>{18d4fddb-46a3-434c-ae35-4c22dfb8c36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\Lights">
+      <UniqueIdentifier>{889dfdd9-1fbb-4b51-8cfd-29c56f45b7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\BeforeLight">
+      <UniqueIdentifier>{c2476bca-cda0-4c0e-a6b9-554d4e5a816f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ConvertAllToClass">
+      <UniqueIdentifier>{f9a70c14-a4b2-4e02-9aec-97657099d6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses">
+      <UniqueIdentifier>{f5dbf34d-dc42-4aa7-80b2-89de47dd0245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\1-LightA">
+      <UniqueIdentifier>{1ede20bb-2f41-4ddf-affc-80e7040e4e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\ComeBack\ContinueAssClasses">
+      <UniqueIdentifier>{5fe7f137-1ecf-49a5-8d1a-08834ec1524d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\Material">
+      <UniqueIdentifier>{61b3a7d5-266b-4f86-8cc2-755f9c9370da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\LightingMaps">
+      <UniqueIdentifier>{552c7a0a-7b69-4e28-b9b1-f97f84837742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\LightCaster">
+      <UniqueIdentifier>{635d7417-2dcb-4232-8752-26e2dfa15fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\LightCaster\DirectionalLight">
+      <UniqueIdentifier>{95e35b66-16b6-4ac1-bca5-96b75247773f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\Multiple lights">
+      <UniqueIdentifier>{0e916d88-c10a-47b7-a35d-465832b48639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLSLSandBox\MySandBox">
+      <UniqueIdentifier>{40d27ab9-a6a5-4138-b468-1e0fc93a6978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\ModelLoading">
+      <UniqueIdentifier>{f5f5e55a-1d60-4891-933c-31f681a9fb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL">
+      <UniqueIdentifier>{db9c5734-f422-4034-baf7-b23e192048ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Triangle from web.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="final Triangle.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercies.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-shader.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="1-Textures.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="2-shader from zero.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureFromZero1Web.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureFromZero1.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformations.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkOnMatricies.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="TheCamera.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="CamWithCameraClass.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstLight.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicColor.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting maps.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMap-Diffuse-Web.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingMultWino-outCourse-.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Directional Light.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="distributedTotal.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDis.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="REspotLight.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleLight.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadModeles.cpp">
+      <Filter>Source Files\ModelLoading\Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="TryProgrammmingLanguage.cpp">
+      <Filter>Source Files\OuterTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TryStringWithSwitch.cpp">
+      <Filter>Source Files\OuterTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\TestGLSLSky.cpp">
+      <Filter>Source Files\GLSLSandBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeShaderClass.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\CB3DCUBE.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\CBTexture.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\FirstCam.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\NewManipulateFromCWCC.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\TransForm.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\TransNo2.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\WithShaderClass.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="1-BasicLight1.cpp">
+      <Filter>Source Files\ComeBack\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicClass.cpp">
+      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
+    </ClCompile>
+    <ClCompile Include="1-LightA.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
+    </ClCompile>
+    <ClCompile Include="1-LightAstart.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\MaterialStart.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\Material.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StartLightingMaps.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightingMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StartLightCasters.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightCaster\DirectionalLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StartMultiple lights.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Multiple lights</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StartMySandBox.cpp">
+      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StLoadModels.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StartDepth testing.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalPersonalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToShaderBookHighlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackupGC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\CBShader.h">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicClass.h">
+      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralIncluders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boint%27sContainers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1-LightA.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
+    </ClInclude>
+    <ClInclude Include="States.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\LightingMaps.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightingMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\LightCasters.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightCaster\DirectionalLight</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\MultipleLights.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Multiple lights</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\MySandBox.h">
+      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\LoadModels.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\Depth testing.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Binary\shaders\shad.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\shad.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\texture1.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\texture1.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\TextureFromZero1.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\TextureFromZero1.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\transformers.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\transformers.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\WorkOnMatricies.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\WorkOnMatricies.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\TheCamera.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\TheCamera.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\lighting.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\lighting.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\lamp.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\lamp.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLamp.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLamp.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLighting.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLighting.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLightingMotion.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLightingMotion.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLightingNormMat.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\BasicColorLightingNormMat.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\Materials.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\Materials.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\Lighting maps.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\Lighting maps.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\DirectionalLight.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\DirectionalLight.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\SpotLight.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\SpotLight.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\REspotLight.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\REspotLight.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\Multiple lights.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\Multiple lights.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="plane.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="plane.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\LoadModeles.frag">
+      <Filter>shaders\fragment</Filter>
+    </None>
+    <None Include="..\Binary\shaders\LoadModeles.vs">
+      <Filter>shaders\vertex</Filter>
+    </None>
+    <None Include="..\Binary\shaders\CBTexture.vs">
+      <Filter>shaders\ComeBack</Filter>
+    </None>
+    <None Include="..\Binary\shaders\CBTexture.frag">
+      <Filter>shaders\ComeBack</Filter>
+    </None>
+    <None Include="..\Binary\shaders\TransNo2.frag">
+      <Filter>shaders\ComeBack</Filter>
+    </None>
+    <None Include="..\Binary\shaders\TransNo2.vs">
+      <Filter>shaders\ComeBack</Filter>
+    </None>
+    <None Include="..\Binary\shaders\CB3DCUBE.frag">
+      <Filter>shaders\ComeBack</Filter>
+    </None>
+    <None Include="..\Binary\shaders\CB3DCUBE.vs">
+      <Filter>shaders\ComeBack</Filter>
+    </None>
+    <None Include="..\Binary\shaders\NewManipSphareDraw.vs">
+      <Filter>shaders\ComeBack</Filter>
+    </None>
+    <None Include="..\Binary\shaders\Sky.frag">
+      <Filter>Source Files\GLSLSandBox</Filter>
+    </None>
+    <None Include="..\Binary\shaders\infinityBlocks.frag">
+      <Filter>Source Files\GLSLSandBox</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\Lamp.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\LightenObject.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\Lamp.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\LightenObject.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\Material.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\Material.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\OkWithMaterial.frag">
+      <Filter>Source Files\GLSLSandBox</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\LightingMaps.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\LightingMaps.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\SandBox2.frag">
+      <Filter>Source Files\GLSLSandBox</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\LCDirectionalLight.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\LCDirectionalLight.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\Multiple lights.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\Multiple lights.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\MySandBox.vs">
+      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\MySandBox.frag">
+      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\MulLiLamp.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\MulLiLamp.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\debthTesting.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\debthTesting.vs">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+    <None Include="..\Binary\shaders\ContAsClass\shaderSingleColor.frag">
+      <Filter>shaders\ComeBack\ContinueAssClasses</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BackupMaterial.txt">
+      <Filter>Source Files\Lighting</Filter>
+    </Text>
+    <Text Include="ForTest.txt">
+      <Filter>Source Files\OuterTest</Filter>
+    </Text>
+    <Text Include="..\Binary\shaders\NewManipSphareDraw.frag">
+      <Filter>shaders\ComeBack</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

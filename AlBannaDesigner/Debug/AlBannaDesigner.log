@@ -1,0 +1,9 @@
+﻿  StartDepth testing.cpp
+e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesigner\albannadesigner\shader.h(74): warning C4101: 'success' : unreferenced local variable
+e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesigner\albannadesigner\shader.h(75): warning C4101: 'infoLog' : unreferenced local variable
+e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesigner\albannadesigner\shader.h(171): warning C4101: 'success' : unreferenced local variable
+e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesigner\albannadesigner\shader.h(172): warning C4101: 'infoLog' : unreferenced local variable
+e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesigner\albannadesigner\comeback\depth testing.h(118): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesigner\albannadesigner\comeback\depth testing.h(180): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesigner\albannadesigner\comeback\depth testing.h(209): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+  AlBannaDesigner.vcxproj -> E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesigner\\Binary\AlBannaDesigner.exe
