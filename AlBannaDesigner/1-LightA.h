@@ -88,7 +88,6 @@ namespace ABTGLC
 		//std::vector<GLuint>Textures;
 		GLuint Texture1, Texture2;
 		void Do_Movement();
-
 		void CreateLightenCube();
 		void CreateLampCube();
 		void CreateTextures();
@@ -99,6 +98,7 @@ namespace ABTGLC
 		void SetVarValues();
 		void MyLoaderShader();
 		void MyLoaderCamera();
+		GLuint loadTexture(GLchar* path);
 		int AddCamera(glm::vec3 position);
 	public:
 		Shader lightingShader;
