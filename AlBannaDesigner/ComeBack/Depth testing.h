@@ -27,7 +27,6 @@ public:
 		
 		this->AdvancedShader.CreatShader("shaders\\ContAsClass\\debthTesting.vs","shaders\\ContAsClass\\debthTesting.frag");
 		this->OnColorshad.CreatShader("shaders\\ContAsClass\\debthTesting.vs", "shaders\\ContAsClass\\shaderSingleColor.frag");
-
 	//shaderSingleColor
 		//	this->lightingShader.CreatShader("shaders\\ContAsClass\\LCDirectionalLight.vs", "shaders\\ContAsClass\\LCDirectionalLight.frag");
 	//	this->lampShader.CreatShader("shaders\\ContAsClass\\Lamp.vs", "shaders\\ContAsClass\\Lamp.frag");
@@ -44,7 +43,6 @@ public:
 		glBindTexture(GL_TEXTURE_2D, textureID);
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
 		glGenerateMipmap(GL_TEXTURE_2D);
-
 		// Parameters
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
@@ -62,7 +60,6 @@ public:
 		glEnable(GL_STENCIL_TEST);
 		glStencilFunc(GL_NOTEQUAL, 1, 0xFF);
 		glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
-
 	}
 	void DoAll()
 	{
@@ -72,7 +69,7 @@ public:
 		this->SetVarValues();
 		this->CreateShaders();
 		this->CreateTextures();
-		this->InfinityLoop();
+		this->InfinityLoopForAdvancedLighting();
 	}
 	void CreateLightenCube(){};
 	void CreatShapes()
@@ -109,9 +106,9 @@ public:
 		this->floorTexture = this->loadTexture("resources\\textures\\metal.png");
 
 	}
-	void InfinityLoop()
+	void InfinityLoopForAdvancedLighting()
 	{
-		
+		//InfinityLoop
 		while (!glfwWindowShouldClose(this->window))
 		{
 			////////////here used every once
@@ -199,7 +196,7 @@ public:
 		}
 
 	}
-	void InfinityLoopForAdvancedLighting()
+	void InfinityLoop()
 	{
 
 		while (!glfwWindowShouldClose(this->window))
