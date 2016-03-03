@@ -24,42 +24,25 @@ public:
 	//We Will Ovride The Function pf loop and we need also to overide DoAll Function To use our InfinityLoop function instead of the base class function's
 	void CreateShaders()
 	{
-		
 		this->AdvancedShader.CreatShader("shaders\\ContAsClass\\debthTesting.vs","shaders\\ContAsClass\\debthTesting.frag");
 		this->OnColorshad.CreatShader("shaders\\ContAsClass\\debthTesting.vs", "shaders\\ContAsClass\\shaderSingleColor.frag");
 	//shaderSingleColor
 		//	this->lightingShader.CreatShader("shaders\\ContAsClass\\LCDirectionalLight.vs", "shaders\\ContAsClass\\LCDirectionalLight.frag");
 	//	this->lampShader.CreatShader("shaders\\ContAsClass\\Lamp.vs", "shaders\\ContAsClass\\Lamp.frag");
 		//		this->SandBox.CreatShader("shaders\\ContAsClass\\Material.vs", "shaders\\ContAsClass\\SandBox2.frag");
+	
 	}
-	GLuint loadTexture(GLchar* path)
-	{
-		//Generate texture ID and load texture data 
-		GLuint textureID;
-		glGenTextures(1, &textureID);
-		int width, height;
-		unsigned char* image = SOIL_load_image(path, &width, &height, 0, SOIL_LOAD_RGB);
-		// Assign texture to ID
-		glBindTexture(GL_TEXTURE_2D, textureID);
-		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
-		glGenerateMipmap(GL_TEXTURE_2D);
-		// Parameters
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-		glBindTexture(GL_TEXTURE_2D, 0);
-		SOIL_free_image_data(image);
-		return textureID;
-
-	}
+	
 	void SetUpBegOptions()
 	{
+	//	glDepthMask(GL_FALSE);
+		///////////////////////////////////////
 		glEnable(GL_DEPTH_TEST);
 		glDepthFunc(GL_LESS);
 		glEnable(GL_STENCIL_TEST);
 		glStencilFunc(GL_NOTEQUAL, 1, 0xFF);
 		glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
+
 	}
 	void DoAll()
 	{
