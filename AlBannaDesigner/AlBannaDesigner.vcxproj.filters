@@ -97,6 +97,21 @@
     <Filter Include="Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL">
       <UniqueIdentifier>{db9c5734-f422-4034-baf7-b23e192048ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting">
+      <UniqueIdentifier>{0698dcd1-31db-487e-95cf-33e9019ef916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending">
+      <UniqueIdentifier>{35f6c2e5-a8f0-445f-9451-1f3c32238746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QtBuild">
+      <UniqueIdentifier>{73f3bd9a-dd38-4c5e-9100-3e43eba08450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QtBuild\GLMainClass">
+      <UniqueIdentifier>{7c1cbdf6-b4e4-46cb-8eac-e648e721fb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QtBuild\Windows%28WidgetContainers%29">
+      <UniqueIdentifier>{bd9dfcd7-0dee-42b7-b2b4-2b955dac04e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Triangle from web.cpp">
@@ -250,7 +265,22 @@
       <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
     </ClCompile>
     <ClCompile Include="ComeBack\StartDepth testing.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL</Filter>
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StartBlending.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending</Filter>
+    </ClCompile>
+    <ClCompile Include="QtBuild\Begin.cpp">
+      <Filter>Source Files\QtBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="QtBuild\GLClass.cpp">
+      <Filter>Source Files\QtBuild\GLMainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="QtBuild\GLQtWindContainer.cpp">
+      <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
+    </ClCompile>
+    <ClCompile Include="QtBuild\GLQtWindContainer_moc.cpp">
+      <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -315,7 +345,22 @@
       <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
     </ClInclude>
     <ClInclude Include="ComeBack\Depth testing.h">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL</Filter>
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="modelBoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meshBoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\Blending.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending</Filter>
+    </ClInclude>
+    <ClInclude Include="QtBuild\GLClass.h">
+      <Filter>Source Files\QtBuild\GLMainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="QtBuild\GLQtWindContainer.h">
+      <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -540,5 +585,6 @@
     <Text Include="..\Binary\shaders\NewManipSphareDraw.frag">
       <Filter>shaders\ComeBack</Filter>
     </Text>
+    <Text Include="QtBuild\Opptions.txt" />
   </ItemGroup>
 </Project>

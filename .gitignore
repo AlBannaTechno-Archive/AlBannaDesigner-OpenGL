@@ -85,3 +85,9 @@ $RECYCLE.BIN/
 *.vcxproj
 *.sln
 *.sdf
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.pdb
+*.filters

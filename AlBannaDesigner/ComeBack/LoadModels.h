@@ -5,7 +5,8 @@
 #define __MATERIAL__
 #include"1-LightA.h"
 #include<States.h>
-#include<model.h>
+//#include<model.h>
+#include<modelBoord.h>
 static State::StatesPro Mystates("Commands.co");
 static glm::vec3 cubePositions[] = {
 	glm::vec3(0.0f, 0.0f, 0.0f),
@@ -27,6 +28,7 @@ public:
 	Model *ourModel;
 	Model*TestModel;
 	Shader SandBox;
+	Shader OnColorshad;
 	tup(GLint x, GLint y, char*t) :LightSection(x, y, t){};
 	//We Will Ovride The Function pf loop and we need also to overide DoAll Function To use our InfinityLoop function instead of the base class function's
 	void CreateShaders()
@@ -35,6 +37,8 @@ public:
 		this->lightingShader.CreatShader("shaders\\ContAsClass\\LCDirectionalLight.vs", "shaders\\ContAsClass\\LCDirectionalLight.frag");
 		this->lampShader.CreatShader("shaders\\ContAsClass\\Lamp.vs", "shaders\\ContAsClass\\Lamp.frag");
 		//		this->SandBox.CreatShader("shaders\\ContAsClass\\Material.vs", "shaders\\ContAsClass\\SandBox2.frag");
+		this->OnColorshad.CreatShader("shaders\\ContAsClass\\debthTesting.vs", "shaders\\ContAsClass\\shaderSingleColor.frag");
+
 	}
 	void CreatModeles()
 	{
@@ -43,6 +47,7 @@ public:
 	}
 	void DoAll()
 	{
+
 	//	glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
 		//	Mystates.Commands(); //here used once
 		//	this->SetAllCallBacks();
@@ -93,7 +98,7 @@ public:
 			glfwPollEvents();
 			Do_Movement();
 			glEnable(GL_DEPTH_TEST);
-			glDepthFunc(GL_ALWAYS);
+	//		glDepthFunc(GL_ALWAYS);
 
 			// Clear the colorbuffer
 			GLfloat red = 0.0f, green = 0.0f, blue = 0.0f;
@@ -105,7 +110,7 @@ public:
 				green = 1.0f;
 
 			glClearColor(red, green, blue, 1.0f);
-			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 			
 
 			// Use cooresponding shader when setting uniforms/drawing objects
@@ -150,7 +155,7 @@ public:
 			glUniformMatrix4fv(glGetUniformLocation(this->lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model1));
 
 
-			ourModel->Draw(this->lightingShader);
+			ourModel->Draw(this->lightingShader,this->OnColorshad,false);
 			model1 = glm::rotate(model1, 270.0f, glm::vec3(1.0, 0.0, 0.0));
 			model1 = glm::scale(model1,glm::vec3(0.09,0.09,0.09));
 			glUniformMatrix4fv(glGetUniformLocation(this->lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model1));
