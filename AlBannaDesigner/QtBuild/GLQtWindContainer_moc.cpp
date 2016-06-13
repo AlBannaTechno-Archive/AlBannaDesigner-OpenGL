@@ -9,6 +9,7 @@
 #include "GLQtWindContainer.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+#if QtCompilation
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'GLQtWindContainer.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
@@ -109,3 +110,4 @@ int GLQtWindContainer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_END_MOC_NAMESPACE
+#endif

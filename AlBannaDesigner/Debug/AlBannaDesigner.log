@@ -1,2 +1,175 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AlBannaDesigner.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  AlBannaDesigner.vcxproj -> E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\\Binary\AlBannaDesignerGit.exe
+﻿Build started 13/06/2016 07:01:08 م.
+     1>Project "E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\AlBannaDesigner\AlBannaDesigner.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AlBannaDesigner.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D __STOP_SHADER_H__ /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt "1-LightA.cpp" "1-LightAstart.cpp" "1-shader.cpp" "1-Textures.cpp" "2-shader from zero.cpp" BasicClass.cpp BasicColor.cpp "1-BasicLight1.cpp" CamWithCameraClass.cpp ComeBack\BeforeShaderClass.cpp ComeBack\CB3DCUBE.cpp ComeBack\CBTexture.cpp ComeBack\FirstCam.cpp ComeBack\Material.h ComeBack\MaterialStart.cpp ComeBack\StartBlending.cpp ComeBack\StartCellsCol.cpp "ComeBack\StartDepth testing.cpp" ComeBack\StartMySandBox.cpp ComeBack\NewManipulateFromCWCC.cpp ComeBack\StartLightCasters.cpp ComeBack\StartLightingMaps.cpp "ComeBack\StartMultiple lights.cpp" ComeBack\StLoadModels.cpp ComeBack\TestGLSLSky.cpp ComeBack\TransForm.cpp ComeBack\TransNo2.cpp ComeBack\WithShaderClass.cpp "Directional Light.cpp" distributedTotal.cpp Exercies.cpp "final Triangle.cpp" FirstLight.cpp "Lighting maps.cpp" "LightingMultWino-outCourse-.cpp" "LightMap-Diffuse-Web.cpp" LoadModeles.cpp main.cpp MainDis.cpp Material.cpp Materials.cpp MultipleLight.cpp QtBlindingStart.cpp QtBuild\Begin.cpp QtBuild\GLClass.cpp QtBuild\GLQtWindContainer.cpp QtBuild\GLQtWindContainer_moc.cpp QtLoadBlinding.cpp REspotLight.cpp SpotLight.cpp Start.cpp TextureFromZero1.cpp TextureFromZero1Web.cpp TheCamera.cpp Transformations.cpp "Triangle from web.cpp" TryProgrammmingLanguage.cpp TryStringWithSwitch.cpp WorkOnMatricies.cpp
+         WorkOnMatricies.cpp
+         TryStringWithSwitch.cpp
+         TryProgrammmingLanguage.cpp
+         Triangle from web.cpp
+         Transformations.cpp
+         TheCamera.cpp
+         TextureFromZero1Web.cpp
+         TextureFromZero1.cpp
+         Start.cpp
+         SpotLight.cpp
+         REspotLight.cpp
+         QtLoadBlinding.cpp
+         GLQtWindContainer_moc.cpp
+         GLQtWindContainer.cpp
+         GLClass.cpp
+         Begin.cpp
+         QtBlindingStart.cpp
+         MultipleLight.cpp
+         Materials.cpp
+         Material.cpp
+         Generating Code...
+         Compiling...
+         MainDis.cpp
+         main.cpp
+         LoadModeles.cpp
+         LightMap-Diffuse-Web.cpp
+         LightingMultWino-outCourse-.cpp
+         Lighting maps.cpp
+         FirstLight.cpp
+         final Triangle.cpp
+         Exercies.cpp
+         distributedTotal.cpp
+         Directional Light.cpp
+         WithShaderClass.cpp
+         TransNo2.cpp
+         TransForm.cpp
+         TestGLSLSky.cpp
+         StLoadModels.cpp
+         StartMultiple lights.cpp
+         StartLightingMaps.cpp
+         StartLightCasters.cpp
+         NewManipulateFromCWCC.cpp
+         Generating Code...
+         Compiling...
+         StartMySandBox.cpp
+         StartDepth testing.cpp
+         StartCellsCol.cpp
+         StartBlending.cpp
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(75): warning C4101: 'infoLog': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(74): warning C4101: 'success': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(172): warning C4101: 'infoLog': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(171): warning C4101: 'success': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\meshboord.h(69): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\meshboord.h(82): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\meshboord.h(105): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\meshboord.h(112): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\meshboord.h(121): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\blending.h(102): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\blending.h(169): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\blending.h(199): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+         MaterialStart.cpp
+         Material.h
+         FirstCam.cpp
+         CBTexture.cpp
+         CB3DCUBE.cpp
+         BeforeShaderClass.cpp
+         CamWithCameraClass.cpp
+         1-BasicLight1.cpp
+         BasicColor.cpp
+         BasicClass.cpp
+         2-shader from zero.cpp
+         1-Textures.cpp
+         1-shader.cpp
+         1-LightAstart.cpp
+         1-LightA.cpp
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(75): warning C4101: 'infoLog': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(74): warning C4101: 'success': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(172): warning C4101: 'infoLog': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\shader.h(171): warning C4101: 'success': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(56): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(57): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(55): warning C4101: 'keys': unreferenced local variable
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(224): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(261): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(341): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(342): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(345): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(346): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(350): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(351): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(353): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(354): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\1-lighta.cpp(368): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\\Binary\AlBannaDesignerGit.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\\Libraries\lib\\" /LIBPATH:C:\Qt\Qt5.4.0\5.4\msvc2013\lib assimp.lib SOIL.lib glew32s.lib opengl32.lib glfw3.lib Enginio.lib Enginiod.lib libEGL.lib libEGLd.lib libGLESv2.lib libGLESv2d.lib Qt5AxBase.lib Qt5AxBased.lib Qt5AxContainer.lib Qt5AxContainerd.lib Qt5AxServer.lib Qt5AxServerd.lib Qt5Bluetooth.lib Qt5Bluetoothd.lib Qt5Bootstrap.lib Qt5CLucene.lib Qt5CLucened.lib Qt5Concurrent.lib Qt5Concurrentd.lib Qt5Core.lib Qt5Cored.lib Qt5Declarative.lib Qt5Declaratived.lib Qt5Designer.lib Qt5DesignerComponents.lib Qt5DesignerComponentsd.lib Qt5Designerd.lib Qt5Gui.lib Qt5Guid.lib Qt5Help.lib Qt5Helpd.lib Qt5Location.lib Qt5Locationd.lib Qt5Multimedia.lib Qt5Multimediad.lib Qt5MultimediaQuick_p.lib Qt5MultimediaQuick_pd.lib Qt5MultimediaWidgets.lib Qt5MultimediaWidgetsd.lib Qt5Network.lib Qt5Networkd.lib Qt5Nfc.lib Qt5Nfcd.lib Qt5OpenGL.lib Qt5OpenGLd.lib Qt5OpenGLExtensions.lib Qt5OpenGLExtensionsd.lib Qt5PlatformSupport.lib Qt5PlatformSupportd.lib Qt5Positioning.lib Qt5Positioningd.lib Qt5PrintSupport.lib Qt5PrintSupportd.lib Qt5Qml.lib Qt5Qmld.lib Qt5QmlDevTools.lib Qt5Quick.lib Qt5Quickd.lib Qt5QuickParticles.lib Qt5QuickParticlesd.lib Qt5QuickTest.lib Qt5QuickTestd.lib Qt5QuickWidgets.lib Qt5QuickWidgetsd.lib Qt5Script.lib Qt5Scriptd.lib Qt5ScriptTools.lib Qt5ScriptToolsd.lib Qt5Sensors.lib Qt5Sensorsd.lib Qt5SerialPort.lib Qt5SerialPortd.lib Qt5Sql.lib Qt5Sqld.lib Qt5Svg.lib Qt5Svgd.lib Qt5Test.lib Qt5Testd.lib Qt5UiTools.lib Qt5UiToolsd.lib Qt5WebChannel.lib Qt5WebChanneld.lib Qt5WebEngine.lib Qt5WebEngineCore.lib Qt5WebEngineCored.lib Qt5WebEngined.lib Qt5WebEngineWidgets.lib Qt5WebEngineWidgetsd.lib Qt5WebKit.lib Qt5WebKitd.lib Qt5WebKitWidgets.lib Qt5WebKitWidgetsd.lib Qt5WebSockets.lib Qt5WebSocketsd.lib Qt5WebView.lib Qt5WebViewd.lib Qt5Widgets.lib Qt5Widgetsd.lib Qt5WinExtras.lib Qt5WinExtrasd.lib Qt5Xml.lib Qt5Xmld.lib Qt5XmlPatterns.lib Qt5XmlPatternsd.lib qtmain.lib qtmaind.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\\Binary\AlBannaDesignerGit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\\Binary\AlBannaDesignerGit.lib" /MACHINE:X86 "Debug\1-LightA.obj"
+         "Debug\1-LightAstart.obj"
+         "Debug\1-shader.obj"
+         "Debug\1-Textures.obj"
+         "Debug\2-shader from zero.obj"
+         Debug\BasicClass.obj
+         Debug\BasicColor.obj
+         "Debug\1-BasicLight1.obj"
+         Debug\CamWithCameraClass.obj
+         Debug\BeforeShaderClass.obj
+         Debug\CB3DCUBE.obj
+         Debug\CBTexture.obj
+         Debug\FirstCam.obj
+         Debug\Material.obj
+         Debug\MaterialStart.obj
+         Debug\StartBlending.obj
+         Debug\StartCellsCol.obj
+         "Debug\StartDepth testing.obj"
+         Debug\StartMySandBox.obj
+         Debug\NewManipulateFromCWCC.obj
+         Debug\StartLightCasters.obj
+         Debug\StartLightingMaps.obj
+         "Debug\StartMultiple lights.obj"
+         Debug\StLoadModels.obj
+         Debug\TestGLSLSky.obj
+         Debug\TransForm.obj
+         Debug\TransNo2.obj
+         Debug\WithShaderClass.obj
+         "Debug\Directional Light.obj"
+         Debug\distributedTotal.obj
+         Debug\Exercies.obj
+         "Debug\final Triangle.obj"
+         Debug\FirstLight.obj
+         "Debug\Lighting maps.obj"
+         "Debug\LightingMultWino-outCourse-.obj"
+         "Debug\LightMap-Diffuse-Web.obj"
+         Debug\LoadModeles.obj
+         Debug\main.obj
+         Debug\MainDis.obj
+         Debug\Material.obj
+         Debug\Materials.obj
+         Debug\MultipleLight.obj
+         Debug\QtBlindingStart.obj
+         Debug\Begin.obj
+         Debug\GLClass.obj
+         Debug\GLQtWindContainer.obj
+         Debug\GLQtWindContainer_moc.obj
+         Debug\QtLoadBlinding.obj
+         Debug\REspotLight.obj
+         Debug\SpotLight.obj
+         Debug\Start.obj
+         Debug\TextureFromZero1.obj
+         Debug\TextureFromZero1Web.obj
+         Debug\TheCamera.obj
+         Debug\Transformations.obj
+         "Debug\Triangle from web.obj"
+         Debug\TryProgrammmingLanguage.obj
+         Debug\TryStringWithSwitch.obj
+         Debug\WorkOnMatricies.obj
+     1>Debug\Material.obj : warning LNK4042: object specified more than once; extras ignored
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\Binary\vc110.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\Binary\vc110.pdb'; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\Binary\vc110.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\Binary\vc110.pdb'; linking object as if no debug info
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\Binary\vc120.pdb'; linking object as if no debug info
+         AlBannaDesigner.vcxproj -> E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\\Binary\AlBannaDesignerGit.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\\Binary\AlBannaDesignerGit.bsc" /n "Debug\1-LightA.sbr" "Debug\1-LightAstart.sbr" "Debug\1-shader.sbr" "Debug\1-Textures.sbr" "Debug\2-shader from zero.sbr" Debug\BasicClass.sbr Debug\BasicColor.sbr "Debug\1-BasicLight1.sbr" Debug\CamWithCameraClass.sbr Debug\BeforeShaderClass.sbr Debug\CB3DCUBE.sbr Debug\CBTexture.sbr Debug\FirstCam.sbr Debug\Material.sbr Debug\MaterialStart.sbr Debug\StartBlending.sbr Debug\StartCellsCol.sbr "Debug\StartDepth testing.sbr" Debug\StartMySandBox.sbr Debug\NewManipulateFromCWCC.sbr Debug\StartLightCasters.sbr Debug\StartLightingMaps.sbr "Debug\StartMultiple lights.sbr" Debug\StLoadModels.sbr Debug\TestGLSLSky.sbr Debug\TransForm.sbr Debug\TransNo2.sbr Debug\WithShaderClass.sbr "Debug\Directional Light.sbr" Debug\distributedTotal.sbr Debug\Exercies.sbr "Debug\final Triangle.sbr" Debug\FirstLight.sbr "Debug\Lighting maps.sbr" "Debug\LightingMultWino-outCourse-.sbr" "Debug\LightMap-Diffuse-Web.sbr" Debug\LoadModeles.sbr Debug\main.sbr Debug\MainDis.sbr Debug\Material.sbr Debug\Materials.sbr Debug\MultipleLight.sbr Debug\QtBlindingStart.sbr Debug\Begin.sbr Debug\GLClass.sbr Debug\GLQtWindContainer.sbr Debug\GLQtWindContainer_moc.sbr Debug\QtLoadBlinding.sbr Debug\REspotLight.sbr Debug\SpotLight.sbr Debug\Start.sbr Debug\TextureFromZero1.sbr Debug\TextureFromZero1Web.sbr Debug\TheCamera.sbr Debug\Transformations.sbr "Debug\Triangle from web.sbr" Debug\TryProgrammmingLanguage.sbr Debug\TryStringWithSwitch.sbr Debug\WorkOnMatricies.sbr
+     1>Done Building Project "E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\AlBannaDesigner\AlBannaDesigner.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.47

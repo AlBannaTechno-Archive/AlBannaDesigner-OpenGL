@@ -10,7 +10,8 @@
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-
+#include<iostream>
+using namespace std;
 
 
 // Defines several possible options for camera movement. Used as abstraction to stay away from window-system specific input methods
@@ -25,9 +26,11 @@ enum Camera_Movement {
 	MOUSESTATUSE,
 	RATESPEEDUP,
 	RATESPEEDDOWN,
+	FULLSCREEN,
 };
 struct ResetCamera
 {
+
 	// Camera Attributes
 	glm::vec3 Position;
 	glm::vec3 Front;
@@ -145,6 +148,10 @@ public:
 		{
 			this->Position -= this->Up*velocity;
 			std::cout << "CP( " << this->Position.x << " , " << this->Position.y << " , " << this->Position.z << " )\n ";
+		}
+		if (direction == FULLSCREEN)
+		{
+
 		}
 		if (direction == RESET)
 		{

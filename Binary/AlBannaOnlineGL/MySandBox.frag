@@ -34,7 +34,7 @@ void main(void) {
 		float _x = p.x*p.x - p.y*p.y + p0.x;
 		p.y = 2. * p.x * p.y + p0.y;
 		p.x = _x;
-		c += 1. / mouse.x;
+		c += 1.2 / mouse.x;
 	}
 	gl_FragColor = vec4(0.3, sin(atan(p.y-1.0, p.x))*sin(time)*1.0, 0.4, 1.);
 

@@ -1,3 +1,4 @@
+#if QtCompilation
 #if 1
 #include"GLClass.h"
 //All GL Content Needers
@@ -166,4 +167,5 @@ GLClass::~GLClass()
  glDeleteBuffers(1, &EBO2);
  
 }
+#endif
 #endif

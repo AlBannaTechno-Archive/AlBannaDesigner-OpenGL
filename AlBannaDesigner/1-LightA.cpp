@@ -311,6 +311,8 @@ namespace ABTGLC
 			camera1.ProcessKeyboard(RATESPEEDDOWN, this->DeltaTime);
 		if (keys[GLFW_KEY_SPACE])
 			camera1.ProcessKeyboard(RESET, this->DeltaTime);
+		if (keys[GLFW_KEY_F])
+			camera1.ProcessKeyboard(RESET, this->DeltaTime);
 		//this->Cameras[CameraNumber].ProcessKeyboard(RESET, this->DeltaTime);
 	}
 	LightSection::~LightSection()

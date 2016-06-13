@@ -3,12 +3,13 @@
 ÕÌÀ «‰ Â–« «·ﬂ·«” ÌÕ ÊÏ  ·ﬂ «·«„Ê— Ê«·· Ì  ﬂÊ‰ Ã„Ì⁄Â« ⁄»«—… ⁄‰ ﬂ·«”« 
 
 */
+
 #pragma once
 #ifndef __QT__GUI_A
 #define __QT__GUI_A
 #include<QtWidgets\qwidget.h>
 #include<QtWidgets\QVBoxLayout>
-#include"GLClass.h"
+
 #include<QtWidgets\qslider.h>
 #include<QtWidgets\qpushbutton.h>
 #include<QtWidgets\qlabel.h>
@@ -18,6 +19,9 @@
 #include<QtGui\QMouseEvent>
 #include<QtGui\QKeyEvent>
 #include<QtGui\qpixmap.h>
+#include<QtBlinding.h>
+#include"GLClass.h"
+#if QtCompilation
 ////----->>>>--->>>>---->>>>---->>>>
 //class os;
 class GLQtWindContainer :public QWidget
@@ -25,7 +29,8 @@ class GLQtWindContainer :public QWidget
 
 	int width1 = 500, height1 = 300;
 	Q_OBJECT
-	GLClass *MyGLClass;//widget
+//	GLClass *MyGLClass;//widget
+	GLClass*MyGLClass;
 	QVBoxLayout *mainLayout;//
 	private slots:
 	void SliderValueChanged();
@@ -36,4 +41,5 @@ public:
 	GLQtWindContainer();
 
 };
+#endif
 #endif

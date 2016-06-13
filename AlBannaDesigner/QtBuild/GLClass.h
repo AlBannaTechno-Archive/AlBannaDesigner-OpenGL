@@ -1,3 +1,5 @@
+#define QtCompilation 0
+#if QtCompilation
 #ifndef __GL_CLASS__
 #define __GL_CLASS__
 ///GL Includeing files
@@ -57,4 +59,5 @@ public:
 };
 
 
+#endif
 #endif

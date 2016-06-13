@@ -1,14 +1,13 @@
 #if 0
 #include<QtWidgets\qapplication.h>
 #include<QtWidgets\qpushbutton.h>
-#include"GLQtWindContainer.h"
-#if QtCompilation
+#include"QtLoadBlinding.h"
+
 int main(int argc, char**argv)
 {
 	QApplication myApp(argc, argv);
-	GLQtWindContainer wid;
+	QtGLBlinding wid;
 	wid.show();
 	return myApp.exec();
 }
-#endif
 #endif

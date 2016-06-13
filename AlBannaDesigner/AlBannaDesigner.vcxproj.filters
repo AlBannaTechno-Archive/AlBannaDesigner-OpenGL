@@ -112,6 +112,15 @@
     <Filter Include="Source Files\QtBuild\Windows%28WidgetContainers%29">
       <UniqueIdentifier>{bd9dfcd7-0dee-42b7-b2b4-2b955dac04e4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\QtBuild\QtBlinding">
+      <UniqueIdentifier>{4eb06ca6-d32f-46d3-b196-012529187291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OuterProjects">
+      <UniqueIdentifier>{7c4caec6-7c77-496b-8274-a8f68a6b923c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OuterProjects\CellCollege">
+      <UniqueIdentifier>{db39e03b-ee60-4278-9af6-c099cd1ef248}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Triangle from web.cpp">
@@ -282,6 +291,15 @@
     <ClCompile Include="QtBuild\GLQtWindContainer_moc.cpp">
       <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
     </ClCompile>
+    <ClCompile Include="QtLoadBlinding.cpp">
+      <Filter>Source Files\QtBuild\QtBlinding</Filter>
+    </ClCompile>
+    <ClCompile Include="QtBlindingStart.cpp">
+      <Filter>Source Files\QtBuild\QtBlinding</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\StartCellsCol.cpp">
+      <Filter>OuterProjects\CellCollege</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
@@ -361,6 +379,15 @@
     </ClInclude>
     <ClInclude Include="QtBuild\GLQtWindContainer.h">
       <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="QtBlinding.h">
+      <Filter>Source Files\QtBuild\QtBlinding</Filter>
+    </ClInclude>
+    <ClInclude Include="QtLoadBlinding.h">
+      <Filter>Source Files\QtBuild\QtBlinding</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\CellsCol.h">
+      <Filter>OuterProjects\CellCollege</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
