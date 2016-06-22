@@ -1,4 +1,4 @@
-﻿Build started 22/06/2016 08:02:45 ص.
+﻿Build started 22/06/2016 08:04:11 ص.
      1>Project "E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\AlBannaDesigner\AlBannaDesigner.vcxproj" on node 2 (Rebuild target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AlBannaDesigner.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -172,4 +172,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:10.42
+Time Elapsed 00:00:09.90
