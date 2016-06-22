@@ -15,8 +15,10 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 // Other includes
-#include "Shader.h"
-#include"camera.h"
+#include<../AlBannaDesigner/Header Files/shader.h>
+//#include "Shader.h"
+#include<../AlBannaDesigner/Header Files/camera.h>
+//#include"camera.h"
 //#include<GraphicalCalculator.h>
 #include<thread>
 #include<string>
@@ -30,7 +32,11 @@
 Çæ äÓÊÎÏã static
 æåæ ÇáÕÍíÍ ÚäÏ ÇÓÊÎÏÇã ãÊÛíÑÇÊ Èíä ÇáåíÏÑ İÇíáÒ
 */
-#include"Boint'sContainers.h"
+#include<../AlBannaDesigner/Header Files/Boint'sContainers.h>
+// We can also load with, "" we are at the same folder
+// but with <> we are in the main folder of solution
+//#include"../../../Header Files/Boint'sContainers.h"
+//#include"Boint'sContainers.h"
 using namespace POCONTS;
 namespace ABTGLC
 {

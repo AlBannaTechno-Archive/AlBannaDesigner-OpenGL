@@ -91,3 +91,8 @@ $RECYCLE.BIN/
 *.ilk
 *.pdb
 *.filters
+*.exe
+
+AllDataHereWillNotCloneToGi/
+AlBannaDesigner/Debug/
+Binary/AlBannaDesigner.tlog/

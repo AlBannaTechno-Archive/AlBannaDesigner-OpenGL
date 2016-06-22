@@ -1,11 +1,15 @@
 //#pragma once
-#define Compilation 0
+#define Compilation 1
 #if Compilation
 #ifndef __MATERIAL__
 #define __MATERIAL__
-#include"1-LightA.h"
-#include<States.h>
-#include<modelBoord.h>
+
+#include<../AlBannaDesigner/ComeBack/ContinueAsClasses/1-LightA/1-LightA.h>
+//#include<../AlBannaDesigner/ComeBack/ContinueAsClasses/1-LightA/1-LightA.h>
+#include<../AlBannaDesigner/Header Files/States.h>
+//#include<../AlBannaDesigner/Header Files/States.h>
+#include<../AlBannaDesigner/Header Files/modelBoord.h>
+//#include<../AlBannaDesigner/Header Files/modelBoord.h>
 static State::StatesPro Mystates("Commands.co");
 
 class tup :public ABTGLC::LightSection
@@ -26,20 +30,20 @@ public:
 	//We Will Ovride The Function pf loop and we need also to overide DoAll Function To use our InfinityLoop function instead of the base class function's
 	void CreateShaders()
 	{
-		this->AdvancedShader.CreatShader("shaders\\ContAsClass\\debthTesting.vs","shaders\\ContAsClass\\debthTesting.frag");
+		this->AdvancedShader.CreatShader("shaders\\ContAsClass\\debthTesting.vs", "shaders\\ContAsClass\\debthTesting.frag");
 		this->OnColorshad.CreatShader("shaders\\ContAsClass\\debthTesting.vs", "shaders\\ContAsClass\\shaderSingleColor.frag");
-	//shaderSingleColor
+		//shaderSingleColor
 		//	this->lightingShader.CreatShader("shaders\\ContAsClass\\LCDirectionalLight.vs", "shaders\\ContAsClass\\LCDirectionalLight.frag");
-	//	this->lampShader.CreatShader("shaders\\ContAsClass\\Lamp.vs", "shaders\\ContAsClass\\Lamp.frag");
+		//	this->lampShader.CreatShader("shaders\\ContAsClass\\Lamp.vs", "shaders\\ContAsClass\\Lamp.frag");
 		//		this->SandBox.CreatShader("shaders\\ContAsClass\\Material.vs", "shaders\\ContAsClass\\SandBox2.frag");
-	
-	ourModel = new Model("E:\\Programming\\OpenGl\\booksAndCourses\\VI The BEST BOOK TO LEARN Open gl\\AllFiles\\AllCodesTocheck\\21. Model\\nanosuit\\nanosuit.obj");
+
+		ourModel = new Model("E:\\Programming\\OpenGl\\booksAndCourses\\VI The BEST BOOK TO LEARN Open gl\\AllFiles\\AllCodesTocheck\\21. Model\\nanosuit\\nanosuit.obj");
 
 	}
-	
+
 	void SetUpBegOptions()
 	{
-	//	glDepthMask(GL_FALSE);
+		//	glDepthMask(GL_FALSE);
 		///////////////////////////////////////
 		glEnable(GL_DEPTH_TEST);
 		glDepthFunc(GL_LESS);
@@ -104,17 +108,17 @@ public:
 			this->LastFrame = CurrentFrame;
 			// Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
 			glfwPollEvents();
-			
+
 			Do_Movement();
-			
-	//		glEnable(GL_DEPTH_TEST);
-	//		glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);			// Clear the colorbuffer
-			
+
+			//		glEnable(GL_DEPTH_TEST);
+			//		glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);			// Clear the colorbuffer
+
 			glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 
 			// Set uniforms
-			
+
 			this->OnColorshad.Use();
 			glm::mat4 model;
 			glm::mat4 view = this->CamInh->GetViewMatrix();
@@ -122,7 +126,7 @@ public:
 			glUniformMatrix4fv(glGetUniformLocation(this->OnColorshad.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
 			glUniformMatrix4fv(glGetUniformLocation(this->OnColorshad.Program, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
 			this->AdvancedShader.Use();
-		
+
 			glUniformMatrix4fv(glGetUniformLocation(this->AdvancedShader.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
 			glUniformMatrix4fv(glGetUniformLocation(this->AdvancedShader.Program, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
 
@@ -152,14 +156,14 @@ public:
 			glUniformMatrix4fv(glGetUniformLocation(this->AdvancedShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 			glDrawArrays(GL_TRIANGLES, 0, 36);
 			glBindVertexArray(0);
-		//	this->ourModel->Draw(this->lightingShader);
+			//	this->ourModel->Draw(this->lightingShader);
 			// == =============
 			// 2nd. Render pass, now draw slightly scaled versions of the objects, this time disabling stencil writing.
 			// Because stencil buffer is now filled with several 1s. The parts of the buffer that are 1 are now not drawn, thus only drawing 
 			// the objects' size differences, making it look like borders.
 			glStencilFunc(GL_NOTEQUAL, 1, 0xFF);
 			glStencilMask(0x00);
-	//		glDisable(GL_DEPTH_TEST);//Comment Here To Draw inline 
+			//		glDisable(GL_DEPTH_TEST);//Comment Here To Draw inline 
 			// ÈÅÎÝÇÁ ÇáÓØÑ ÇáÓÇÈÞ äÍä äãäÚ ÇáÅØÇÑ ÇáÎÇÑÌí Çæ ÇáÊÍÏíÏ ÇáÎÇÕ ÈÇáÕäÏæÞ ãä ÊÌÇæÒ ÇáÇÑÖíÉ 
 			//ÍíË áæ ÝÚáäÇå ÝÓäáÇÍÙ Çäå íÙåÑ ÍÊì æÅä äÙÑäÇ ãä ÇÓÝá Èá æíÙåÑ ßÇãáÇ æåÐÇ ÎØíÑ ÌÏÇÇ
 			// ØÈÚÇ ÓäáÇÍÙ ÇáÇä Çäå íÙåÑ ãä ÇÓÝá Çí ÚäÏ ÇáäÒæá ÇÓÝá ÇáÇÑÖíÉ æÇáäÙÑ áÇÚáì 
@@ -181,7 +185,7 @@ public:
 			glUniformMatrix4fv(glGetUniformLocation(this->OnColorshad.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 			glDrawArrays(GL_TRIANGLES, 0, 36);
 			glBindVertexArray(0);
-		//	this->ourModel->Draw(this->OnColorshad);
+			//	this->ourModel->Draw(this->OnColorshad);
 			glStencilMask(0xFF);
 			glEnable(GL_DEPTH_TEST);
 			// Swap the buffers

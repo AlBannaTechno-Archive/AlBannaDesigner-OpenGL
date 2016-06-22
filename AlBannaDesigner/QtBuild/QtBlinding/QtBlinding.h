@@ -3,9 +3,9 @@
 #if Compilation
 #ifndef __MATERIAL__
 #define __MATERIAL__
-#include"1-LightA.h"
-#include<States.h>
-#include<modelBoord.h>
+#include<../AlBannaDesigner/ComeBack/ContinueAsClasses/1-LightA/1-LightA.h>
+#include<../AlBannaDesigner/Header Files/States.h>
+#include<../AlBannaDesigner/Header Files/modelBoord.h>
 #include<QtWidgets\QVBoxLayout>
 #include<QtWidgets\qapplication.h>
 #include<QtOpenGL\qgl.h>

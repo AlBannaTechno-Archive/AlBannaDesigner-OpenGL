@@ -1,0 +1,7 @@
+WorkDirectory
+$(SolutionDir)\Binary\
+New For GL
+D:\QT\5.4\msvc2013\bin\
+
+Now we organized all file cpp and .h 
+but fragment shader and veriex shader will remain at this now 

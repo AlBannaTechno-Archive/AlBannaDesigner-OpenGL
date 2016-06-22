@@ -3,8 +3,8 @@
 #if Compilation
 #ifndef __MATERIAL__
 #define __MATERIAL__
-#include"1-LightA.h"
-#include<States.h>
+#include<../AlBannaDesigner/ComeBack/ContinueAsClasses/1-LightA/1-LightA.h>
+#include<../AlBannaDesigner/Header Files/States.h>
 static State::StatesPro Mystates("Commands.co");
 static glm::vec3 cubePositions[] = {
 	glm::vec3(0.0f, 0.0f, 0.0f),

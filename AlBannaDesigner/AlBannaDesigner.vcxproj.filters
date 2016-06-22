@@ -123,271 +123,271 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Triangle from web.cpp">
-      <Filter>Source Files\No1</Filter>
-    </ClCompile>
-    <ClCompile Include="final Triangle.cpp">
-      <Filter>Source Files\No1</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files\No1</Filter>
-    </ClCompile>
-    <ClCompile Include="Exercies.cpp">
-      <Filter>Source Files\No1</Filter>
-    </ClCompile>
-    <ClCompile Include="1-shader.cpp">
-      <Filter>Source Files\No2</Filter>
-    </ClCompile>
-    <ClCompile Include="1-Textures.cpp">
-      <Filter>Source Files\No2</Filter>
-    </ClCompile>
-    <ClCompile Include="2-shader from zero.cpp">
-      <Filter>Source Files\No2</Filter>
-    </ClCompile>
-    <ClCompile Include="TextureFromZero1Web.cpp">
-      <Filter>Source Files\No2</Filter>
-    </ClCompile>
-    <ClCompile Include="TextureFromZero1.cpp">
-      <Filter>Source Files\No2</Filter>
-    </ClCompile>
-    <ClCompile Include="Transformations.cpp">
-      <Filter>Source Files\CordinatesAndMath</Filter>
-    </ClCompile>
-    <ClCompile Include="WorkOnMatricies.cpp">
-      <Filter>Source Files\CordinatesAndMath</Filter>
-    </ClCompile>
-    <ClCompile Include="TheCamera.cpp">
-      <Filter>Source Files\CordinatesAndMath</Filter>
-    </ClCompile>
-    <ClCompile Include="CamWithCameraClass.cpp">
-      <Filter>Source Files\CordinatesAndMath</Filter>
-    </ClCompile>
-    <ClCompile Include="FirstLight.cpp">
-      <Filter>Source Files\Lighting</Filter>
-    </ClCompile>
-    <ClCompile Include="BasicColor.cpp">
-      <Filter>Source Files\Lighting</Filter>
-    </ClCompile>
-    <ClCompile Include="Materials.cpp">
-      <Filter>Source Files\Lighting</Filter>
-    </ClCompile>
-    <ClCompile Include="Lighting maps.cpp">
-      <Filter>Source Files\Lighting</Filter>
-    </ClCompile>
-    <ClCompile Include="LightMap-Diffuse-Web.cpp">
-      <Filter>Source Files\Lighting</Filter>
-    </ClCompile>
-    <ClCompile Include="LightingMultWino-outCourse-.cpp">
-      <Filter>Source Files\Lighting</Filter>
-    </ClCompile>
-    <ClCompile Include="Directional Light.cpp">
-      <Filter>Source Files\Lighting\LightCasters</Filter>
-    </ClCompile>
-    <ClCompile Include="SpotLight.cpp">
-      <Filter>Source Files\Lighting\LightCasters</Filter>
-    </ClCompile>
-    <ClCompile Include="distributedTotal.cpp">
-      <Filter>Source Files\Lighting\LightCasters</Filter>
-    </ClCompile>
-    <ClCompile Include="MainDis.cpp">
-      <Filter>Source Files\Lighting\LightCasters</Filter>
-    </ClCompile>
-    <ClCompile Include="REspotLight.cpp">
-      <Filter>Source Files\Lighting\LightCasters</Filter>
-    </ClCompile>
-    <ClCompile Include="MultipleLight.cpp">
-      <Filter>Source Files\Lighting</Filter>
-    </ClCompile>
-    <ClCompile Include="LoadModeles.cpp">
-      <Filter>Source Files\ModelLoading\Assimp</Filter>
-    </ClCompile>
-    <ClCompile Include="TryProgrammmingLanguage.cpp">
-      <Filter>Source Files\OuterTest</Filter>
-    </ClCompile>
-    <ClCompile Include="TryStringWithSwitch.cpp">
-      <Filter>Source Files\OuterTest</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\TestGLSLSky.cpp">
-      <Filter>Source Files\GLSLSandBox</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\BeforeShaderClass.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\CB3DCUBE.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\CBTexture.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\FirstCam.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\NewManipulateFromCWCC.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\TransForm.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\TransNo2.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\WithShaderClass.cpp">
-      <Filter>Source Files\ComeBack\BeforeLight</Filter>
-    </ClCompile>
-    <ClCompile Include="1-BasicLight1.cpp">
-      <Filter>Source Files\ComeBack\Lights</Filter>
-    </ClCompile>
-    <ClCompile Include="BasicClass.cpp">
-      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
-    </ClCompile>
-    <ClCompile Include="Start.cpp">
-      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
-    </ClCompile>
-    <ClCompile Include="1-LightA.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
-    </ClCompile>
-    <ClCompile Include="1-LightAstart.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\MaterialStart.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\Material.h">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
-    </ClCompile>
-    <ClCompile Include="Material.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\StartLightingMaps.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\LightingMaps</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\StartLightCasters.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\LightCaster\DirectionalLight</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\StartMultiple lights.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\Multiple lights</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\StartMySandBox.cpp">
-      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\StLoadModels.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\StartDepth testing.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting</Filter>
-    </ClCompile>
-    <ClCompile Include="ComeBack\StartBlending.cpp">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending</Filter>
-    </ClCompile>
     <ClCompile Include="QtBuild\Begin.cpp">
       <Filter>Source Files\QtBuild</Filter>
     </ClCompile>
-    <ClCompile Include="QtBuild\GLClass.cpp">
+    <ClCompile Include="ComeBack\BeforeLight\BeforeShaderClass.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeLight\CB3DCUBE.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeLight\CBTexture.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeLight\FirstCam.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeLight\NewManipulateFromCWCC.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeLight\TransForm.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeLight\TransNo2.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\BeforeLight\WithShaderClass.cpp">
+      <Filter>Source Files\ComeBack\BeforeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\1-LightA\1-LightA.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\1-LightA\1-LightAstart.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending\StartBlending.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting\StartDepth testing.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ConvertAllToClass\Start.cpp">
+      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ConvertAllToClass\BasicClass.cpp">
+      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\Lights\1-BasicLight1.cpp">
+      <Filter>Source Files\ComeBack\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="CordinatesAndMath\CamWithCameraClass.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="CordinatesAndMath\TheCamera.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="CordinatesAndMath\Transformations.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="CordinatesAndMath\WorkOnMatricies.cpp">
+      <Filter>Source Files\CordinatesAndMath</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLSandBox\MySandBox\StartMySandBox.cpp">
+      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLSandBox\TestGLSLSky.cpp">
+      <Filter>Source Files\GLSLSandBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\Directional Light.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\distributedTotal.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\MainDis.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\REspotLight.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\SpotLight.cpp">
+      <Filter>Source Files\Lighting\LightCasters</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\BasicColor.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\FirstLight.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\Lighting maps.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\LightingMultWino-outCourse-.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\LightMap-Diffuse-Web.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\Materials.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting\LightCasters\MultipleLight.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoading\Assimp\LoadModeles.cpp">
+      <Filter>Source Files\ModelLoading\Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="No1\Exercies.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="No1\final Triangle.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="No1\main.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="No1\Triangle from web.cpp">
+      <Filter>Source Files\No1</Filter>
+    </ClCompile>
+    <ClCompile Include="No2\1-shader.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="No2\1-Textures.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="No2\2-shader from zero.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="No2\TextureFromZero1.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="No2\TextureFromZero1Web.cpp">
+      <Filter>Source Files\No2</Filter>
+    </ClCompile>
+    <ClCompile Include="OuterTest\TryProgrammmingLanguage.cpp">
+      <Filter>Source Files\OuterTest</Filter>
+    </ClCompile>
+    <ClCompile Include="OuterTest\TryStringWithSwitch.cpp">
+      <Filter>Source Files\OuterTest</Filter>
+    </ClCompile>
+    <ClCompile Include="QtBuild\GLMainClass\GLClass.cpp">
       <Filter>Source Files\QtBuild\GLMainClass</Filter>
     </ClCompile>
-    <ClCompile Include="QtBuild\GLQtWindContainer.cpp">
-      <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
-    </ClCompile>
-    <ClCompile Include="QtBuild\GLQtWindContainer_moc.cpp">
-      <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
-    </ClCompile>
-    <ClCompile Include="QtLoadBlinding.cpp">
+    <ClCompile Include="QtBuild\QtBlinding\QtBlindingStart.cpp">
       <Filter>Source Files\QtBuild\QtBlinding</Filter>
     </ClCompile>
-    <ClCompile Include="QtBlindingStart.cpp">
+    <ClCompile Include="QtBuild\QtBlinding\QtLoadBlinding.cpp">
       <Filter>Source Files\QtBuild\QtBlinding</Filter>
     </ClCompile>
-    <ClCompile Include="ComeBack\StartCellsCol.cpp">
+    <ClCompile Include="QtBuild\Windows%28WidgetContainers%29\GLQtWindContainer.cpp">
+      <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
+    </ClCompile>
+    <ClCompile Include="QtBuild\Windows%28WidgetContainers%29\GLQtWindContainer_moc.cpp">
+      <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
+    </ClCompile>
+    <ClCompile Include="OuterProjects\CellCollege\StartCellsCol.cpp">
       <Filter>OuterProjects\CellCollege</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\LightCaster\DirectionalLight\StartLightCasters.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightCaster\DirectionalLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\LightingMaps\StartLightingMaps.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightingMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\Material\Material.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\Material\Material.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\Material\MaterialStart.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\ModelLoading\StLoadModels.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="ComeBack\ContinueAsClasses\Multiple lights\StartMultiple lights.cpp">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Multiple lights</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="camera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AdditionalPersonalFunctions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ToShaderBookHighlight.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mesh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="model.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AdditionalClasses.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GraphicalCalculator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BackupGC.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\CBShader.h">
+    <ClInclude Include="ComeBack\BeforeLight\CBShader.h">
       <Filter>Source Files\ComeBack\BeforeLight</Filter>
     </ClInclude>
-    <ClInclude Include="BasicClass.h">
-      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneralIncluders.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Boint%27sContainers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="1-LightA.h">
+    <ClInclude Include="ComeBack\ContinueAsClasses\1-LightA\1-LightA.h">
       <Filter>Source Files\ComeBack\ContinueAsClasses\1-LightA</Filter>
     </ClInclude>
-    <ClInclude Include="States.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\LightingMaps.h">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\LightingMaps</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\LightCasters.h">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\LightCaster\DirectionalLight</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\MultipleLights.h">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\Multiple lights</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\MySandBox.h">
-      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\LoadModels.h">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\Depth testing.h">
-      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting</Filter>
-    </ClInclude>
-    <ClInclude Include="modelBoord.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="meshBoord.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\Blending.h">
+    <ClInclude Include="ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending\Blending.h">
       <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\Blending</Filter>
     </ClInclude>
-    <ClInclude Include="QtBuild\GLClass.h">
+    <ClInclude Include="ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting\Depth testing.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\AdvancedOpenGL\DepthTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\ConvertAllToClass\BasicClass.h">
+      <Filter>Source Files\ComeBack\ConvertAllToClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLSandBox\MySandBox\MySandBox.h">
+      <Filter>Source Files\GLSLSandBox\MySandBox</Filter>
+    </ClInclude>
+    <ClInclude Include="QtBuild\GLMainClass\GLClass.h">
       <Filter>Source Files\QtBuild\GLMainClass</Filter>
     </ClInclude>
-    <ClInclude Include="QtBuild\GLQtWindContainer.h">
+    <ClInclude Include="QtBuild\QtBlinding\QtBlinding.h">
+      <Filter>Source Files\QtBuild\QtBlinding</Filter>
+    </ClInclude>
+    <ClInclude Include="QtBuild\QtBlinding\QtLoadBlinding.h">
+      <Filter>Source Files\QtBuild\QtBlinding</Filter>
+    </ClInclude>
+    <ClInclude Include="QtBuild\Windows%28WidgetContainers%29\GLQtWindContainer.h">
       <Filter>Source Files\QtBuild\Windows%28WidgetContainers%29</Filter>
     </ClInclude>
-    <ClInclude Include="QtBlinding.h">
-      <Filter>Source Files\QtBuild\QtBlinding</Filter>
-    </ClInclude>
-    <ClInclude Include="QtLoadBlinding.h">
-      <Filter>Source Files\QtBuild\QtBlinding</Filter>
-    </ClInclude>
-    <ClInclude Include="ComeBack\CellsCol.h">
+    <ClInclude Include="OuterProjects\CellCollege\CellsCol.h">
       <Filter>OuterProjects\CellCollege</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AdditionalClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AdditionalPersonalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BackupGC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Boint%27sContainers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GeneralIncluders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GraphicalCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\meshBoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\modelBoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\States.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ToShaderBookHighlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\ContinueAsClasses\LightCaster\DirectionalLight\LightCasters.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightCaster\DirectionalLight</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\ContinueAsClasses\LightingMaps\LightingMaps.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\LightingMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\ContinueAsClasses\ModelLoading\LoadModels.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\ModelLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="ComeBack\ContinueAsClasses\Multiple lights\MultipleLights.h">
+      <Filter>Source Files\ComeBack\ContinueAsClasses\Multiple lights</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -603,15 +603,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="BackupMaterial.txt">
-      <Filter>Source Files\Lighting</Filter>
-    </Text>
-    <Text Include="ForTest.txt">
-      <Filter>Source Files\OuterTest</Filter>
-    </Text>
     <Text Include="..\Binary\shaders\NewManipSphareDraw.frag">
       <Filter>shaders\ComeBack</Filter>
     </Text>
-    <Text Include="QtBuild\Opptions.txt" />
+    <Text Include="Lighting\LightCasters\BackupMaterial.txt">
+      <Filter>Source Files\Lighting</Filter>
+    </Text>
+    <Text Include="OuterTest\ForTest.txt">
+      <Filter>Source Files\OuterTest</Filter>
+    </Text>
+    <Text Include="OldOptions.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Opptions.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -3,8 +3,8 @@
 #if Compilation
 #ifndef __MATERIAL__
 #define __MATERIAL__
-#include"1-LightA.h"
-#include<States.h>
+#include<../AlBannaDesigner/ComeBack/ContinueAsClasses/1-LightA/1-LightA.h>
+#include<../AlBannaDesigner/Header Files/States.h>
 
 /*
 сс╩ф╚эх ▌у┌┘у ╟с╧ц╟с ц╟с╚э╟ф╟╩ ╟суц╠ц╧╔ ▌э х╨╟ ╟сус▌ █э╤ х╟у╔ с┌ус 

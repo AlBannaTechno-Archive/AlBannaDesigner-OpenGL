@@ -19,8 +19,8 @@
 #include<QtGui\QMouseEvent>
 #include<QtGui\QKeyEvent>
 #include<QtGui\qpixmap.h>
-#include<QtBlinding.h>
-#include"GLClass.h"
+#include<../AlBannaDesigner/QtBuild/QtBlinding/QtBlinding.h>
+#include<../AlBannaDesigner/QtBuild/GLMainClass/GLClass.h>
 #if QtCompilation
 ////----->>>>--->>>>---->>>>---->>>>
 //class os;

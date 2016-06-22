@@ -3,8 +3,8 @@
 #if Compilation
 #ifndef __MATERIAL__
 #define __MATERIAL__
-#include"1-LightA.h"
-#include<States.h>
+#include<../AlBannaDesigner/ComeBack/ContinueAsClasses/1-LightA/1-LightA.h>
+#include<../AlBannaDesigner/Header Files/States.h>
 static State::StatesPro Mystates("Commands.co");
 class tup :public ABTGLC::LightSection
 {
