@@ -1,4 +1,4 @@
-﻿Build started 22/06/2016 06:55:38 ص.
+﻿Build started 22/06/2016 07:14:07 ص.
      1>Project "E:\Programming\OpenGl\my projects\ApplicationOfflineProjetcReturnFromZero\AlBannaDesignerGit\AlBannaDesigner\AlBannaDesigner.vcxproj" on node 2 (Rebuild target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AlBannaDesigner.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -49,8 +49,6 @@
          Compiling...
          StartMySandBox.cpp
          StartDepth testing.cpp
-         StartCellsCol.cpp
-         StartBlending.cpp
      1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\header files\shader.h(75): warning C4101: 'infoLog': unreferenced local variable
      1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\header files\shader.h(74): warning C4101: 'success': unreferenced local variable
      1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\header files\shader.h(172): warning C4101: 'infoLog': unreferenced local variable
@@ -60,9 +58,11 @@
      1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\header files\meshboord.h(105): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
      1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\header files\meshboord.h(112): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
      1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\header files\meshboord.h(121): warning C4805: '==': unsafe mix of type 'GLboolean' and type 'bool' in operation
-     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\continueasclasses\advancedopengl\blending\blending.h(106): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\continueasclasses\advancedopengl\blending\blending.h(173): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\continueasclasses\advancedopengl\blending\blending.h(203): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\continueasclasses\advancedopengl\depthtesting\depth testing.h(102): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\continueasclasses\advancedopengl\depthtesting\depth testing.h(169): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>e:\programming\opengl\my projects\applicationofflineprojetcreturnfromzero\albannadesignergit\albannadesigner\comeback\continueasclasses\advancedopengl\depthtesting\depth testing.h(199): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+         StartCellsCol.cpp
+         StartBlending.cpp
          MaterialStart.cpp
          Material.h
          FirstCam.cpp
@@ -172,4 +172,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:13.89
+Time Elapsed 00:00:10.31

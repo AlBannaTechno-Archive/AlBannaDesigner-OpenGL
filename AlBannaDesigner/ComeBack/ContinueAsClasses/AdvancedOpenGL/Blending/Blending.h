@@ -1,5 +1,5 @@
 //#pragma once
-#define Compilation 1
+#define Compilation 0
 #if Compilation
 #ifndef __MATERIAL__
 #define __MATERIAL__

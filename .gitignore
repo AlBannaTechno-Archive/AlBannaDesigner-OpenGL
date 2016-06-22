@@ -92,7 +92,59 @@ $RECYCLE.BIN/
 *.pdb
 *.filters
 *.exe
+*.bsc
+*.sbr
+
 
 AllDataHereWillNotCloneToGi/
 AlBannaDesigner/Debug/
 Binary/AlBannaDesigner.tlog/
+AlBannaDesigner\Debug\
+Debug/
+Binary/AlBannaDesignerGit.bsc
+
+################
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bsc
+*.sbr
+*.sbr
+AlBannaDesigner/Debug/AlBannaDesigner.log
+*.log
+AlBannaDesigner/ComeBack/ContinueAsClasses/AdvancedOpenGL/DepthTesting/Depth testing.h
+AlBannaDesigner/ComeBack/ContinueAsClasses/AdvancedOpenGL/Blending/Blending.h
