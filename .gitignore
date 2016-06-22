@@ -94,13 +94,20 @@ $RECYCLE.BIN/
 *.exe
 *.bsc
 *.sbr
+*.log
 
+
+
+Binary/AlBannaDesignerGit.bsc
 
 AllDataHereWillNotCloneToGi/
+
+AlBannaDesigner/Debug/*.log
+
+Binary/AlBannaDesigner.log/
+
 AlBannaDesigner/Debug/
-Binary/AlBannaDesigner.tlog/
-AlBannaDesigner\Debug\
-Debug/
+
 Binary/AlBannaDesignerGit.bsc
 
 ################
@@ -146,5 +153,7 @@ Thumbs.db
 *.sbr
 AlBannaDesigner/Debug/AlBannaDesigner.log
 *.log
-AlBannaDesigner/ComeBack/ContinueAsClasses/AdvancedOpenGL/DepthTesting/Depth testing.h
-AlBannaDesigner/ComeBack/ContinueAsClasses/AdvancedOpenGL/Blending/Blending.h
+*.log
+Binary/AlBannaDesignerGit.bsc
+*.log
+CMakeFiles&Additionals/glew/Binary/glewmx.dir/Debug/glewmx.log
