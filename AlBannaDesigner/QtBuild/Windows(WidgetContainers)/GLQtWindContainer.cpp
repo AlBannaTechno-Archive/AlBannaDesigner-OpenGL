@@ -1,5 +1,5 @@
-
-
+#include<IfQInstalled.h>
+#if __QT_INSTALLED__
 #include<QtWidgets\qslider.h>
 #include<QtWidgets\qpushbutton.h>
 #include<QtWidgets\qlabel.h>
@@ -12,11 +12,11 @@
 GLQtWindContainer::GLQtWindContainer()
 {
 	setMouseTracking(true);
-	setLayout(mainLayout = new QVBoxLayout);//æÖÚ ÇÇáÇí ÇæÊ ÇáÇÓÇÓíÉ
-	QVBoxLayout *controlsLayout;//Úãá æÇÍÏÉ ÃÎÑì ÌÏíÏÉ
-	mainLayout->addLayout(controlsLayout = new QVBoxLayout);//ÅÖÇÝÉ áÇí ÇæÊ ÃÎÑì 
+	setLayout(mainLayout = new QVBoxLayout);//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	QVBoxLayout *controlsLayout;//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+	mainLayout->addLayout(controlsLayout = new QVBoxLayout);//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 	MyGLClass = new GLClass;
-	mainLayout->addWidget(MyGLClass);//ÓäÌÚá ÇáßáÇÓ ÇáÎÇÕ  ÈäÇ Çí ßáÇÓ ÇáÇæÈä Ìí Çá íÚÑÖ Ýí ÇááÇí ÇæÊ ÇáÑÃíÓíÉ æÍÏå
+	mainLayout->addWidget(MyGLClass);//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //	connect(this->qc, SIGNAL(triggered()), this, SLOT(ChangedBar()));//Trigged =Cliced
 
 }
@@ -39,4 +39,5 @@ void GLQtWindContainer::keyPressEvent(QKeyEvent*e)
 	if (Qt::Key::Key_Escape == e->key())
 		this->close();
 }
+#endif
 #endif

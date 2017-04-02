@@ -5,7 +5,8 @@
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
-
+#include<IfQInstalled.h>
+#if __QT_INSTALLED__
 #include "GLQtWindContainer.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
@@ -110,4 +111,5 @@ int GLQtWindContainer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_END_MOC_NAMESPACE
+#endif
 #endif

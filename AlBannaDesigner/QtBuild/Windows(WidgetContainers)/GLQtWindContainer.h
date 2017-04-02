@@ -1,9 +1,10 @@
 /*
-Ýí åÐÇ ÇáßáÇÓ íÊã æÖÚ ÇáÇãæÑ ÇááÊí ÓÊÚÑÖ Ýí ÇáÔÇÔÉ
-ÍíË Çä åÐÇ ÇáßáÇÓ íÍÊæì Êáß ÇáÇãæÑ æÇááÊí Êßæä ÌãíÚåÇ ÚÈÇÑÉ Úä ßáÇÓÇÊ
+ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 */
-
+#include<IfQInstalled.h>
+#if __QT_INSTALLED__
 #pragma once
 #ifndef __QT__GUI_A
 #define __QT__GUI_A
@@ -41,5 +42,6 @@ public:
 	GLQtWindContainer();
 
 };
+#endif
 #endif
 #endif

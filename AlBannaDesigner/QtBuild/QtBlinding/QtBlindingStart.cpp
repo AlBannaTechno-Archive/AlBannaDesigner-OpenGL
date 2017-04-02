@@ -1,3 +1,5 @@
+#include<IfQInstalled.h>
+#if __QT_INSTALLED__
 #if 0
 #include<QtWidgets\qapplication.h>
 #include<QtWidgets\qpushbutton.h>
@@ -10,4 +12,5 @@ int main(int argc, char**argv)
 	wid.show();
 	return myApp.exec();
 }
+#endif
 #endif
