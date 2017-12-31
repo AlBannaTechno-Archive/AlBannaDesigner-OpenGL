@@ -389,6 +389,9 @@
     <ClInclude Include="ComeBack\ContinueAsClasses\Multiple lights\MultipleLights.h">
       <Filter>Source Files\ComeBack\ContinueAsClasses\Multiple lights</Filter>
     </ClInclude>
+    <ClInclude Include="IfQInstalled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Binary\shaders\shad.vs">
