@@ -14,3 +14,9 @@ Also notice it's includes all generated binary files for all development steps
 including `fractal shader engine`
 
 ##### [Project Link On Mega](https://mega.nz/#F!D0YmiYyT!DXa8ySaJ5UX0EsYPRMNplw)
+
+###### Also notice:
+due to complexity of containing pure OpenGl window inside HWND pointer wrappers for most of libraries I record this video to explain
+containing openGL inside Qt container `only qt dlls needed, without need to qt creator/studio or any scaffolding or WISWIG tools` this video i pretty long `1:46:16` Also i used java `i used java for this demonstration , you can use what you want` to get/update dll references in C++ project
+
+###### [Qt+OpenGL Video](https://mega.nz/#!f4oQWAgS!acDF7rFMB8roCbeJO9cgVUTD4bI8ZSMAvkd8msh-ykU)
