@@ -26,6 +26,10 @@ containing openGL inside Qt container `only qt dlls needed, without need to qt c
 * Load 2d and 3d models with texturing, and apply custom filters
 * Easly move in the environment with mouse and keyboard, also support zoom
 * Shading object borders with tensile shader
+* Complete ShaderBox to render equations written in `glsl` high customizable
+  * Customizable render width and height, even more than your screen dimenssions, `be aware of overflowing your GPU`
+  * Allow passing paramaeters from muse postion x,y so you can make two parent dynamic parameter to change it in runtime with just move your mouse
+  * If you do not know what is ShaderBox exactly is, see: [GlslSandbox](http://glslsandbox.com/) and [ShaderToy](https://www.shadertoy.com/)
   
 <a href="https://ibb.co/tQthkdW"><img src="https://i.ibb.co/9cLvzMC/tensile.png" alt="tensile" border="0"></a>
   
