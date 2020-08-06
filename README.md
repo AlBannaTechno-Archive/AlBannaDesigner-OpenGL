@@ -26,7 +26,8 @@ containing openGL inside Qt container `only qt dlls needed, without need to qt c
 * Load 2d and 3d models with texturing, and apply custom filters
 * Easly move in the environment with mouse and keyboard, also support zoom
 * Shading object borders with tensile shader
-  <a href="https://ibb.co/tQthkdW"><img src="https://i.ibb.co/9cLvzMC/tensile.png" alt="tensile" border="0"></a>
+  
+<a href="https://ibb.co/tQthkdW"><img src="https://i.ibb.co/9cLvzMC/tensile.png" alt="tensile" border="0"></a>
   
 #### Not Implemented Features
 * This projects does not implement body/mass physics engine, it is pretty complex and out of scope of OpenGL itself
